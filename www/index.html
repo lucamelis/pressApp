@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+ <!--  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> -->
+  
+ <link rel="stylesheet" href="http://bootflat.github.io/css/site.min.css">
+  <script type="text/javascript" src="http://bootflat.github.io/js/site.min.js"></script> 
+
+<style type="text/css">  		
+
+	h1,h2, .footer-logo {
+	    text-align: center;
+	}
+	p {
+	    text-align: center;
+	}
+
+	html, body {
+ 	 height: 100%;
+	}
+
+	#wrap {
+	  min-height: 100%;
+	}
+
+	#main {
+	  overflow:auto;
+	  padding-bottom:100px; /* this needs to be bigger than footer height*/
+	}
+
+	#foot {
+	  position: relative;
+	  margin-top: -100px; /* negative value of footer height */
+	  height: 100px;
+	  clear:both;
+	  padding-top:20px;
+	} 
+</style>
+
+</head>
+<body style="background-color: rgb(241, 242, 246);">
+<div id="wrap">
+	<div id="header">
+	
+	<nav class="navbar navbar-inverse" role="navigation">
+	<div class="container-fluid"><div class="navbar-header">
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button><a class="navbar-brand" href="#"><img style="max-width:100px; margin-top: -7px;"src="assets/pics/icon.png">PressApp</a></div><div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><ul class="nav navbar-nav"><li class="active"><a href="#">Link</a></li><li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a><ul class="dropdown-menu" role="menu"><li class="dropdown-header">Setting</li><li><a href="#">Action</a></li><li><a href="#">Another action</a></li><li><a href="#">Something else here</a></li><li class="divider"></li><li class="active"><a href="#">Separated link</a></li><li class="divider"></li><li class="disabled"><a href="#">One more separated link</a></li></ul></li></ul><form class="navbar-form navbar-right" role="search"><div class="form-search search-only"><i class="search-icon glyphicon glyphicon-search"></i> <input class="form-control search-query"></div></form>
+	</div>
+	</div>
+	</nav>
+		
+	<div class="jumbotron">
+		<div class="jumbotron-contents">
+		<h1>This is <em>PressApp</em>!</h1>
+		<h2> Get your privacy-preserving recommended items now.</h2>
+		<p>Push the <strong>Start</strong> button! </p> 
+		</div>
+		</div>
+	</div>
+
+	<div id="container" class="container documents">
+
+	<div id="Load"></div>
+		<p>
+		<button id="start" class="btn btn-primary btn-lg btn-block center-block">
+		  <span class="	glyphicon glyphicon-globe" aria-hidden="true"></span> Start
+		  </button>
+		</p>
+  		<script src="lib/jquery.js"></script>
+		<script src="js/app.js"></script>
+	</div>
+</div>
+
+</body>
+</html>
